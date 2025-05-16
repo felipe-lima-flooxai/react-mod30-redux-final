@@ -1,0 +1,17 @@
+.objetivo-display {
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  width: 60%;
+  
+  padding: 2rem;
+  color: #f1f1f1;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(235, 239, 11, 0.4);
+}
+
+.objetivo-valor {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffd54f; /* amarelo claro para destacar */
+  margin-top: 0.5rem;
+}

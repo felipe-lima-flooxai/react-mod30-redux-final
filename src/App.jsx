@@ -9,6 +9,8 @@ import BotaoIncrementar from './Componentes/BotaoIncrementar';
 import BotaoDecrementar from './Componentes/BotaoDecrementar';
 import BotaoDividir from './Componentes/BotaoDividir';
 import BotaoMultiplicar from './Componentes/BotaoMultiplicar';
+import Inicializador from './Componentes/Inicializador';
+import ObjetivoDisplay from './Componentes/ObjetivoDisplay';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,14 +19,21 @@ function App() {
     <>
     <Provider store={store}>
       <MainLayout>
+        <Inicializador></Inicializador>
         <Header></Header>
 
+        <ObjetivoDisplay></ObjetivoDisplay>
         <DisplayCard></DisplayCard>
         <BotaoIncrementar></BotaoIncrementar>
         <BotaoDecrementar></BotaoDecrementar>
         <BotaoDividir></BotaoDividir>
         <BotaoMultiplicar></BotaoMultiplicar>
+        <p style={{
+          marginTop: "20px"
+        }}> - Obrigado por jogar essa brincadeirinha que fiz, espero que tenha gostado - </p>
+        <p>Felipe, 2025</p>
       </MainLayout>
+
     </Provider>
       
     </>
