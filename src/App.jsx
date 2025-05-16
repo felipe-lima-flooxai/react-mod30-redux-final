@@ -6,6 +6,9 @@ import { Provider } from 'react-redux';
 import { store } from './store/Store';
 import DisplayCard from './Componentes/DisplayCard';
 import BotaoIncrementar from './Componentes/BotaoIncrementar';
+import BotaoDecrementar from './Componentes/BotaoDecrementar';
+import BotaoDividir from './Componentes/BotaoDividir';
+import BotaoMultiplicar from './Componentes/BotaoMultiplicar';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +21,9 @@ function App() {
 
         <DisplayCard></DisplayCard>
         <BotaoIncrementar></BotaoIncrementar>
+        <BotaoDecrementar></BotaoDecrementar>
+        <BotaoDividir></BotaoDividir>
+        <BotaoMultiplicar></BotaoMultiplicar>
       </MainLayout>
     </Provider>
       
