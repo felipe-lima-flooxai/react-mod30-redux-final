@@ -1,0 +1,12 @@
+.header {
+  background-color: #1e1e1e; /* mesma cor do MainLayout */
+  border: 3px solid #9a9999;    /* borda cinza discreta */
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #e0e0e0; /* branco/cinza suave */
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
