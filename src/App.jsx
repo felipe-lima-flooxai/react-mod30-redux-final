@@ -2,23 +2,25 @@ import { useState } from 'react'
 import MainLayout from './Componentes/MainLayout'
 import Header from './Componentes/Header'
 import './App.css'
+import { Provider } from 'react-redux';
+import { store } from './store/Store';
+import DisplayCard from './Componentes/DisplayCard';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <Provider store={store}>
       <MainLayout>
         <Header></Header>
 
-        <section>
-          {/* Aqui virá o card do contador */}
-        </section>
+        <DisplayCard>
 
-        <section style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-          {/* Aqui virão os botões, lado a lado */}
-        </section>
+        </DisplayCard>
       </MainLayout>
+    </Provider>
+      
     </>
   )
 }

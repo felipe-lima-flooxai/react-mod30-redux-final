@@ -1,0 +1,22 @@
+.display-card {
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  width: 60%;
+  
+  padding: 2rem;
+  color: #f1f1f1;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(85, 245, 133, 0.4);
+}
+
+.display-valor {
+  font-size: 4rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.mensagem-ganhou {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #4caf50; /* verde */
+}
