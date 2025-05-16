@@ -5,6 +5,7 @@ import './App.css'
 import { Provider } from 'react-redux';
 import { store } from './store/Store';
 import DisplayCard from './Componentes/DisplayCard';
+import BotaoIncrementar from './Componentes/BotaoIncrementar';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,9 +16,8 @@ function App() {
       <MainLayout>
         <Header></Header>
 
-        <DisplayCard>
-
-        </DisplayCard>
+        <DisplayCard></DisplayCard>
+        <BotaoIncrementar></BotaoIncrementar>
       </MainLayout>
     </Provider>
       
