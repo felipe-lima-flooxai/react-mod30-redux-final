@@ -1,0 +1,14 @@
+.layout-container {
+  max-width: 960px;
+  margin: 2rem auto; /* espaçamento vertical + centralização horizontal */
+  padding: 2rem;
+  min-height: calc(100vh - 4rem); /* altura total com respiro */
+  background-color: #1e1e1e; /* tom de preto suave */
+  border-radius: 16px; /* bordas arredondadas */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); /* sombra sutil para dar profundidade */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-sizing: border-box;
+  color: #f1f1f1; /* texto claro pra contraste */
+}
